@@ -11,11 +11,11 @@
 * Records should be written in the format student_id,student_name,numeric_grade,letter_grade
 
 ## Letter grades
-* >= 90       - A
-* >= 80, < 90 - B
-* >= 75, < 80 - C
-* >= 70, < 75 - D
-* < 70        - F
+* \>= 90       - A
+* \>= 80, < 90 - B
+* \>= 75, < 80 - C
+* \>= 70, < 75 - D
+* < 70         - F
 
 ## How to read csv file
 [Link](https://realpython.com/python-csv/)
