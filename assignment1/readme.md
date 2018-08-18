@@ -1,7 +1,7 @@
 # Requirements
 1. Read csv input file of students
 2. Calculate numeric grade and letter grade for each student
-3. Write output to file
+3. Write output to new csv file
 
 # Input file format
 * First line is total number of questions
@@ -17,5 +17,5 @@
 * \>= 70, < 75 - D
 * < 70         - F
 
-## How to read csv file
+## How to read and write to csv file
 [Link](https://realpython.com/python-csv/)
