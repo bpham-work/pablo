@@ -10,11 +10,12 @@ print(list) # prints [2, 3, 4]
 ```
 
 ## Problem 2
-Write a function named incrementNewList to add 1 to each integer in a given list and return a new list
+Write a function named incrementNewList to add 1 to each integer in a given list and return a new list. The old list should be unchanged
 
 ```python
 list = [1, 2, 3]
 newList = incrementNewList(list)
+print(list) # prints [1, 2, 3]
 print(newList) # prints [2, 3, 4]
 ```
 
@@ -68,4 +69,12 @@ print(isPrime(2)) # prints True
 print(isPrime(0)) # prints False
 print(isPrime(1)) # prints False
 print(isPrime(10)) # prints False
+```
+
+## Problem 6
+Write a function to return the first duplicate character in a given string. Return None if no duplicates
+```python
+print(getFirstDupe('abba')) # prints b
+print(getFirstDupe('baab)) # prints a
+print(getFirstDupe('drake')) # prints None
 ```
